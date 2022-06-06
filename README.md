@@ -27,3 +27,13 @@ Ken,Thompson,19430204
 Rob,Pike,19560101
 Robert,Griesemer,19640609
 ```
+
+## How-To
+- Need to have a version of python3 installed
+- To run the program, run `python3 main.py example-input.csv`
+  - Replace `example-input.csv` with a csv filename
+
+## Assumptions
+- User-provided filter must be case-sensitive
+- Matching lines do not include substrings
+- csv files must follow format specified in "Assignment" section
